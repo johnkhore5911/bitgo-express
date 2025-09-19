@@ -3,7 +3,6 @@
     "builder": "DOCKERFILE"
   },
   "deploy": {
-    "startCommand": "bitgo-express --port $PORT --bind 0.0.0.0 --env prod",
     "healthcheckPath": "/api/v2/ping"
   }
 }
