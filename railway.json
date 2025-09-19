@@ -3,6 +3,7 @@
     "builder": "DOCKERFILE"
   },
   "deploy": {
-    "healthcheckPath": "/api/v2/ping"
+    "healthcheckPath": "/api/v2/ping",
+    "restartPolicyType": "ON_FAILURE"
   }
 }
